@@ -32,7 +32,7 @@ class Human:
         else:
             if self.satiety >= 100:
                 self.satiety = 100
-            return
+                return
         self.satiety += 5
         self.home.food -= 5
 
