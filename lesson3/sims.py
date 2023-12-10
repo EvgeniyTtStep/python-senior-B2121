@@ -58,7 +58,7 @@ class Human:
                 manage = "fuel"
             else:
                 self.to_repair()
-            return
+                return
         if manage == "fuel":
             print("I bought fuel")
             self.money -= 100
@@ -178,8 +178,10 @@ class Auto:
 
 class House:
     def __init__(self):
-        self.mess = 0
-        self.food = 0
+        self.mess = 10
+        self.food = 10
+
+
 
 
 job_list = {
