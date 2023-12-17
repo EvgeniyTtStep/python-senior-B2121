@@ -61,3 +61,5 @@ print("instance = ", isinstance(vaska, Animal))
 print("instance = ", isinstance(vaska, Dog))
 print(issubclass(Animal, Cat))
 print(issubclass(Cat, Animal))
+
+print()
