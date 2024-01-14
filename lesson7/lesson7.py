@@ -43,5 +43,18 @@ count = Counter(10)
 print(next(count))
 print(count.__next__())
 
+print("============ Generators ============")
 
 
+def degrees(num, max_degrees):
+    for i in range(max_degrees):
+        yield num ** i
+
+
+result = degrees(1000, 50)
+
+print(type(result))
+
+
+for i in result:
+    print(i)
